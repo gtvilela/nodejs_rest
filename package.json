@@ -1,0 +1,31 @@
+{
+  "name": "payfast",
+  "version": "1.0.0",
+  "description": "um gateway para pagamentos através de recursos http.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtvilela/nodejs_rest.git"
+  },
+  "keywords": [
+    "gateway",
+    "pagamentos",
+    "api"
+  ],
+  "author": "Gabriela Vilela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtvilela/nodejs_rest/issues"
+  },
+  "homepage": "https://github.com/gtvilela/nodejs_rest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {}
+}
